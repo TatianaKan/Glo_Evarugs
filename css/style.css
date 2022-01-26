@@ -1,0 +1,59 @@
+/* 16px=1rem */
+html,
+body {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(
+    269.91deg,
+    rgba(46, 49, 146, 0.7) 0%,
+    rgba(212, 20, 90, 0.7) 98.16%
+  );
+  
+  padding-top: 2.3rem;
+  padding-bottom: 2.6rem;
+  color: #fff;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__telephone-img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.5rem;
+}
+
+.header__maps-img {
+  width: 1.5rem;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.header__inst-img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+}
+
+.header__inst, 
+.header__maps,
+.header__telephone {
+  display: flex;
+  align-items: center;
+}
