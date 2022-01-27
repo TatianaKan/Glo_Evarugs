@@ -1,4 +1,10 @@
 /* 16px=1rem */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-size: 62.5%;
@@ -74,6 +80,10 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 63%;
+}
+
+.header__telephone-text span:nth-child(1) {
+padding-right: 1.2rem;
 }
 
 .header__maps span {
@@ -199,7 +209,7 @@ h1,h2,h3,h4,h5,h6 {
   grid-template-columns: repeat(3, 29%);
   gap: 0 6.1rem;
   margin-right: -4.1rem;
-  padding: 12rem 0 22rem;
+  padding: 12rem 0;
 }
 
 .about__item {
@@ -258,6 +268,14 @@ h1,h2,h3,h4,h5,h6 {
 .footer__inst-img {
   width: 3.3rem;
   height: 3.3rem;
+}
+
+.footer__adress ul {
+  max-width: 22.4rem;
+}
+
+.footer__adress  li:nth-child(1) {
+padding-bottom: 1.2rem;
 }
 
 .footer__decor-1 {
