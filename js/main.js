@@ -1,3 +1,22 @@
+const modal = document.querySelector('.modal');
+const buttonModal = document.querySelector('.main-display__button');
+
+
+
+
+buttonModal.addEventListener('click', ()=> {
+  modal.classList.add('active');
+
+})
+
+modal.addEventListener('click', (event)=> {
+  const isModal = event.target.closest('.modal__inner');
+  if (!isModal) {
+    modal.classList.remove('active');
+
+  }
+})
+
 const swiper = new Swiper('.swiper', {
   slidesPerView: 3,
   loop: true,
@@ -20,5 +39,4 @@ const swiper = new Swiper('.swiper', {
     //   slidesPerView: 1
     // }
   }
-
 });

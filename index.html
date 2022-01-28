@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/swiper-bundle.css">
   <link rel="stylesheet" href="css/style.css">
@@ -258,9 +258,6 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
     <!-- </div> -->
   </div>
@@ -307,6 +304,43 @@
       </div>
     </div>
   </footer>
+
+  <form action="#" class="modal">
+    <div class="modal__inner">
+      <div class="modal__inner-header">Форма заявки</div>
+      <div class="modal__inner-elements">
+
+        <div class="modal__item">
+
+          <div class="modal__wrap-input ">
+            <input class="modal__input" type="text" placeholder="Ваше имя">
+          </div>
+
+          <div class="modal__wrap-input ">
+            <input class="modal__input" type="email" placeholder="Вaш e-mail">
+          </div>
+
+        </div>
+
+        
+          <div class="modal__item-long">
+            <textarea class="modal__message" name="text" id="" cols="30" rows="10" placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)"></textarea>
+          </div>
+        
+
+        <div class="modal__policy">
+          <input type="checkbox" id="modal__check" >
+          <label for="modal__check">
+            <span>Я соглашаюсь с</span>
+            <a href=""> Политикой безопасности</a>
+          </label>
+        </div>
+
+        <button type="button" class="main-display__button modal__button">Отправить </button>
+      </div>
+
+    </div>
+  </form>
 
 </body>
 
