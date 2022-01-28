@@ -106,7 +106,13 @@ h6 {
 /* /////////////////////////// */
 .main-display {
   padding-top: 4.7rem;
+  padding-bottom: 10rem;
+
+  background: url("../img/mainFon.svg");
+  background-repeat: no-repeat;
+  background-position: 61% 95%;
 }
+
 .main-display__top {
   display: flex;
   align-items: center;
@@ -190,6 +196,11 @@ h6 {
   height: 53.3rem;
 }
 /* ////////////// */
+.about {
+  background: url("../img/fonCart.svg");
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+}
 .about__header {
   font-size: 5rem;
   font-weight: 400;
@@ -217,7 +228,7 @@ h6 {
   grid-template-columns: repeat(3, 29%);
   gap: 0 6.1rem;
   margin-right: -4.1rem;
-  padding: 12rem 0;
+  padding: 12rem 0 22.5rem;
 }
 
 .about__item {
@@ -229,7 +240,7 @@ h6 {
 
 .about__item-description {
   background-color: #fff;
-  padding: 5%;
+  padding: 6%;
 }
 
 .about__item-header {
