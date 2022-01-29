@@ -289,10 +289,12 @@ h6 {
   border-radius: 0.9rem;
   min-height: 25rem;
   padding: 6.3rem 4.5rem 5rem 4.5rem;
+  opacity: 40%;
 }
 
 .review__slide-photo {
   clip-path: polygon(50% 0, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
+
   width: 10.5rem;
   height: 12.5rem;
   background-color: #fff;
@@ -304,8 +306,10 @@ h6 {
   justify-content: center;
   align-items: center;
   clip-path: polygon(50% 0%, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
-  width: 11rem;
-  height: 13rem;
+  
+  width: 13rem;
+  height: 15rem;
+ 
   background: rgb(61, 91, 245);
   background: linear-gradient(
     0deg,
@@ -318,6 +322,8 @@ h6 {
   top: -50%;
   left: 50%;
   transform: translate(-50%, 45%);
+
+ 
 }
 
 .review__slide-text {
@@ -355,6 +361,11 @@ h6 {
 
   color: #8e8e8e;
 }
+
+.swiper-slide-next{
+  opacity: 80%;
+}
+
 
 /* ////////////////// */
 .footer {
